@@ -1,7 +1,7 @@
 
 # Session-Based Psychometric Risk Detection using LSTM with SMOTE-Enhanced Class Balancing
 
-An advanced deep learning framework developed during a research internship at the **National Institute of Technology, Tiruchirappalli (NIT Trichy)**. This project identifies behavioral and psychometric risk factors from sequential user sessions by combining recurrent deep learning models with data augmentation techniques to solve severe class imbalance issues.
+This project identifies behavioral and psychometric risk factors from sequential user sessions by combining recurrent deep learning models with data augmentation techniques to solve severe class imbalance issues.
 
 ##  Project Overview
 Psychometric risk assessment from active user sessions typically suffers from heavily skewed data distributions, as high-risk anomalies are rare compared to standard user behavior. This framework leverages Long Short-Term Memory (LSTM) networks to capture vital temporal and sequential dependencies across time-series sessions. To prevent model bias toward majority classes, the Synthetic Minority Over-sampling Technique (SMOTE) is integrated into the pre-processing pipeline, ensuring balanced training dynamics and reliable high-risk detection.
